@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Vechicles registry </title>
+        <link rel="stylesheet" href="css/main.css">
+        <!-- add java script code processing -->
+        <script src="javascript/jsfunc.js"></script>
+
+        <!--<!— Функция обработки Нажатия на клавишу Просмотр списка Клиентов 2 &ndash;&gt;-->
+        <!--<script type="text/javascript">-->
+            <!--function buttonClick (button) { alert(" Вы нажали клавишу ") }-->
+
+            <!--var counter = 0;-->
+            <!--function OnMouseCounter (element) {-->
+                <!--counter++;-->
+                <!--element.innerHTML = "На этот текст наведено" + counter + "раз."-->
+            <!--}-->
+        <!--</script>-->
+
+    </head>
+
+    <body onload="alert('Страница загружена')">
+
+        <div id="wrapper" class="wrapper">
+            <div id="head" class="top-header top-header1">
+                <h2>Vechicles registry</h2>
+            </div>
+        </div>
+
+        <input type="button1" name="butCustListShow" value="Cписок Клиентов" onclick="buttonClientsList(this)"/>
+        <input type="button2" name="butCustListShow2" value="Просмотр списка Клиентов 2" onclick="buttonClick(this)"/>
+
+        <span onmouseover = "OnMouseCounter (this)" > На этот текст было наведено 0 раз </span>
+    </body>
+
+</html>
